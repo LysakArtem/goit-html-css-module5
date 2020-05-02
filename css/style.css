@@ -149,7 +149,7 @@ header .main{
     text-align:left;
 }
 
-.sliders h3{
+.slider-title{
     text-transform: uppercase;
     font-size: 60px;
     letter-spacing: -2px;
@@ -200,7 +200,7 @@ header .main{
     height:320px;
 }
 
-.products-list h3{
+.bottom-card {
     display:block;
     width:100%;
     position: absolute;
@@ -209,6 +209,11 @@ header .main{
     height: 40px;
     background-color: #323232;
 }
+
+.bottom-card:hover{
+    background-color:#1abc9c;
+}
+
 .produkt-name{
     float:left;
     width:160px;
@@ -360,7 +365,7 @@ section.items{
     vertical-align: middle;
 }
 
-h2 {
+.section-title {
     font-size: 48px;
     letter-spacing: -1px;
     line-height: 40px;
@@ -371,7 +376,7 @@ h2 {
     margin-bottom: 80px;
 }
 
-h2::after{
+.section-title::after{
     display:block;
     width:164px;
     height: 7px;
@@ -394,3 +399,6 @@ footer{
    
 }
 
+.copyright-themen{
+    color: #46bfa9;
+}
